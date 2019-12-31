@@ -11,12 +11,12 @@ body {
     float: left;
     padding: 0px 10px;
     margin: 0px 35px 35px 35px;
-    float: left;
 }
 
-.row{
+.row {
     display: block;
     margin-top: 30px;
+    padding-left: 155px;
 }
 
 
@@ -26,7 +26,7 @@ body {
     clear: both;
 }
 
-@media screen and (max-width:600px)
+@media screen and (max-width:800px)
 {
     .column{
         width: 100%;
