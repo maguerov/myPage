@@ -1,0 +1,45 @@
+﻿body {
+    background-image: url("../jpeg/1.png");
+    background-size: cover;
+    font-family: Calibri;
+    display: block;
+}
+
+.hero {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+    .hero h1 {
+        color: white;
+        height: 100%;
+        text-align: center;
+        font-size: 75px;
+        font-weight: 200;
+        text-transform: uppercase;
+        margin-top: 175px;
+    }
+
+    .hero span {
+        font-weight: 800;
+    }
+
+
+.button {
+    text-align: center;
+    padding-top: 150px;
+}
+
+    .button a {
+        border: 1px solid white;
+        padding: 10px 30px;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+
+    }
+
+        .button a:hover {
+            background-color: white;
+            color:black;
+        }
