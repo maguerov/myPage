@@ -1,0 +1,61 @@
+height: 100vh; vh stands for vertical height
+box-sising: border-box; this avoids the box to overflow.
+
+
+two ways to animate with css
+
+1) transition
+transition: all 0.5s;
+by using linear, ease-in, ease-in-out, ease-out we can manage the speed for the transition
+cubic-bezier bounces everything from on side to another
+
+
+
+2)position relative - moves the box with the left right top....
+position: relative;
+left, right, top: 20px: 
+
+
+opacity: fades down the div
+
+
+div{
+animation-name: slideIn;
+animation-duration: 1s;
+animation-fill-mode: forwards; --this one makes the div to stick at the TO position
+animation-iteration-count: amount of times that the animation will repeat itself
+animation-timing-functions: ease in or out;
+
+
+--- reduced version
+animation: slideIn 1s forwards; 
+
+
+}
+
+@keyframes slideIn{
+from{original position of the div (ideally out of the screen, like left:-100%) position of div must be relative}
+to{where you want the div to appear}
+
+we can use transform:rotate(45deg); for the div to move around
+--In here we can use percentajes (0%, 20%, 80%, 100&) instead of from and to. 
+
+} key frames helps to animate the div in order to make him appear into the screen
+
+
+
+line-height: 50px;
+
+btn{
+background-image: linear-gradient (to right, #171717 50%, transparent 50%);
+background-position: 100% 0%;
+background-size: 200% 100%;
+transition: 0.5s;
+}
+
+btn:hover {
+color: white;
+background-position: 0% 50%;
+
+}
+
